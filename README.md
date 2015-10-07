@@ -6,8 +6,6 @@
 2. Use `pwd` to identify the current directory of your Terminal session.
 3. Use `ls` to list the files in the current directory of your Terminal session.
 4. Use `cd` and `cd ..` to change directories of your Terminal session.
-5. Use `open .` to open the current directory of your Terminal session in Finder.
-6. Use `subl .` to open the current directory in Sublime Text.
 
 ## Overview
 
@@ -104,8 +102,37 @@ In my home directory, `~` (which is really `/Users/avi`), I have 6 directories, 
 
 ## `cd` - Changing Directories
 
+When you open a new Terminal session, you'll be in a working directory, probably your home directory, `~`. But how do we move around to other directories and change our working directory? You can use the `cd` command, which stands for Change Directory.
+
+From your home directory, try:
+
+```
+~ $ cd Desktop
+~/Desktop $
+```
+
+From within `~`, our home directory, at our prompt `$`, we type `cd Desktop`. Our terminal will change the directory and enter our `Desktop` folder and our prompt will now indicate that our working directory is `~/Desktop`. Your prompt might look a little different but you'll be in your `Desktop` directory. Confirm with: `$ pwd` (remember don't actually type `$`). `pwd` should output something like: `/Users/avi/Desktop`, the full path to your Desktop directory.
+
+Once your working directory is your desktop, try `ls` and have your Terminal list any files that are on your desktop.
+
 ### `..` and `.`
 
-## `open ` - Opening Folders and Files
+How do you move from `Desktop` back up to your home directory? You can always move out of the current folder and back into the parent folder by typing `cd ..`. Just like `~` is a shortcut for home directory, `..` is a shortcut that always means "the directory above" or the "parent directory" of the current. Your file system is a tree like structure, with directories being inside other directories:
 
-## `subl` - Opening Folders and Files in Sublime Text
+```
+├── Users
+    ├── avi
+       └── Desktop
+```
+
+`Desktop` is within `avi` which is within `Users` which is at the top of my hard drive, the root, `/`. The path to my desktop is: `/Users/avi/Desktop`. From within `Desktop`, you would refer to the parent directory, `avi` as `..`.
+
+In the same manner that `..` means the directory above, the shortcut `.` means the current directory. You'll see why being able to refer to your current directory as `.` is helpful in a minute.
+
+### cd `~`
+
+You can also change directory back to your home directory from anywhere via `cd ~`. Remember that `~` is a shortcut that means home so if you type `cd ~` you are telling your terminal to change the working directory to your home directory.
+
+### Hint: Tab Autocomplete
+
+When you're in Terminal, to autocomplete a directory or a command, start typing and then press TAB.
