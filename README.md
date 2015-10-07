@@ -68,7 +68,7 @@ The `pwd` command is an acronym for "Print Working Directroy." The `pwd` command
 
 Knowing what directory you are working within is crucial when using your Terminal. You are opening files and running programs that live in directories and you need to make sure you're in the right directory for your task.
 
-You never need to guess, if you're ever curious where you are or need to confirm you are where you think you are, type `pwd`.
+You never need to guess. If you're ever curious where you are or if you need to confirm you are where you think you are, type `pwd`.
 
 #### `~` - Your Home Directory
 
