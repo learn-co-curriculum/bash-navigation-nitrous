@@ -25,7 +25,7 @@ Let's learn to navigate the files and folders on your Nitrous using the Terminal
 
 ## `pwd` and Working Directories
 
-When you open a Nitrous, your Terminal is open to a location within a directory of the file system on your Nitrous. Whatever programs execute or work you do in your Terminal, like when you click on things in your GUI, that action happens in the context of a "Working Directory."
+When you open Nitrous, your Terminal is open to a location within a directory of the file system on your Nitrous. Whatever programs you execute or work you do in your Terminal, like when you click on things in your GUI, that action happens in the context of a "Working Directory."
 
 A "Working Directory" just means wherever on your Nitrous' hard drive you are when you execute a program by running a command in your Terminal like `learn hello`. You did that from somewhere. We call that somewhere, wherever you currently are, a "Working Directory".
 
