@@ -33,7 +33,7 @@ Open a Terminal and you'll be at your Command Line prompt, where your computer i
 
 ### What's a Command Line Prompt
 
-Our Command Line prompt, and maybe yours if you configured you environment through Learn, is represented by:
+Our Command Line prompt, and maybe yours if you configured your environment through Learn, is represented by:
 
 ```
 ➜  ~
