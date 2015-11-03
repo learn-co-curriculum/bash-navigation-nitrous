@@ -13,7 +13,7 @@ When you open a file on your computer, you locate it in by navigating through th
 
 When you open an application from your Finder or Desktop, it always happens from the context of a "Working Directory" - the directory of your computer you were in when you executed the program. When you click on a file on your Desktop or Open an application from Your Dock or Applications directory, you are still opening a file in a directory. The Dock and Desktop are just abstractions for that directory to make them easy to access.
 
-We're used to navigating and operating on these files using our GUI, our Graphical User Interface, provided by OSX or whatever operating system we're using (Windows).
+We're used to navigating and operating on these files using our GUI, our Graphical User Interface, provided by OS X (Macintosh) or whatever operating system we're using (Windows).
 
 Your Nitrous environment is no different, it is a computer in the cloud (aka the internet) and instead of a classical operating system like on your home computer, you access it via a Web Interface in your browser. Without a classical GUI, you have to learn to navigate your files and directories with the Nitrous Console.
 
