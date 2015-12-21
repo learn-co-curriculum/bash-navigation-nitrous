@@ -9,7 +9,7 @@
 
 ## Overview
 
-When you open a file on your computer, you locate it in by navigating through the directories on your computer' file system using Finder. Even files on your Desktop that you click on are stored in your computer's file system, your hard drive.
+When you open a file on your computer, you locate it by navigating through the directories on your computer's file system using Finder. Even files on your Desktop that you click on are stored in your computer's file system, your hard drive.
 
 When you open an application from your Finder or Desktop, it always happens from the context of a "Working Directory" - the directory of your computer you were in when you executed the program. When you click on a file on your Desktop or Open an application from Your Dock or Applications directory, you are still opening a file in a directory. The Dock and Desktop are just abstractions for that directory to make them easy to access.
 
