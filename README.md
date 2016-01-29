@@ -130,4 +130,4 @@ You can also change directory back to your home directory from anywhere via `cd 
 
 When you're in Terminal, to autocomplete a directory or a command, start typing and then press TAB.
 
-<a href='https://learn.co/lessons/bash-navigation-nitrous' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/bash-navigation-nitrous' title='Navigating with BASH - Nitrous'>Navigating with BASH - Nitrous</a> on Learn.co and start learning to code for free.</p>
